@@ -24,18 +24,3 @@ if (userName) {
   console.log(userName);
   alert("Привіт, " + userName + "!");
 }
-
-const isConfirm = confirm("Підтвердіть дію");
-if (isConfirm) {
-  console.log("Дякую за підтвердження!");
-} else {
-  console.log("Дію відмінено!");
-}
-
-const message = alert("Підтвердіть загруження невідомого файла");
-const isTransfering = confirm("Чи впевнені у цій дії");
-if (isConfirm) {
-  console.log("Дякую за підтвердження!");
-} else {
-  console.log("Дію відмінено!");
-}
